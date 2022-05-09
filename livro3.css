@@ -1,0 +1,69 @@
+body{
+    margin:0;
+    padding: 0;
+    background-image: url("fundo.jpg");
+    background-size: cover;
+}
+
+.cabeca{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 217, 0, 0.89);
+    height: 170px;
+}
+
+.cabeca1 img{
+    margin-top: 30px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(226, 192, 0, 0.932);
+}
+
+nav ul, nav il{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color:rgba(255, 255, 255, 0.89);
+}
+
+nav .active a, nav a:hover{
+    background-color: rgba(255, 217, 0, 0.486);
+    color: red;
+}
+
+
+
+.volumes{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    padding: 10px;
+    max-height: 500px;
+    max-width: 680px;
+    background-color: rgba(255, 255, 255, 0.712);
+    border-radius: 15px;
+}
+
+.vol1 img{
+    max-height: 500px;
+    padding: 10px;
+}
+
+.texto{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
