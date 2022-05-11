@@ -52,6 +52,7 @@ nav .active a, nav a:hover{
     justify-content: flex-start;
     margin: 10px;
     padding: 10px;
+    max-width: 370px;
     max-height: 500px;
     background-color: rgba(255, 255, 255, 0.712);
     border-radius: 15px;
