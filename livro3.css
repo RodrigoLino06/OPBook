@@ -53,7 +53,6 @@ nav .active a, nav a:hover{
     margin: 10px;
     padding: 10px;
     max-height: 500px;
-    max-width: 680px;
     background-color: rgba(255, 255, 255, 0.712);
     border-radius: 15px;
 }
@@ -61,9 +60,4 @@ nav .active a, nav a:hover{
 .vol1 img{
     max-height: 500px;
     padding: 10px;
-}
-
-.texto{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
 }
